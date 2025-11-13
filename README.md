@@ -2,7 +2,7 @@
 
 This project develops an adaptive expert ensemble model to solve the ill-posed inverse problem of reconstructing 1D thermal conductivity profiles ($K(z)$) from Time-Domain Thermoreflectance (TDTR) measurements.
 
-## 1. The Problem: An Ill-Posed Inverse Problem
+## 0. The Problem: An Ill-Posed Inverse Problem
 
 Determining a material's thermal conductivity as a function of depth ($K(z)$) is critical for designing and understanding nanomaterials and thin films. Time-Domain Thermoreflectance (TDTR) is a standard experimental technique that provides a 1D thermal response curve (`ModelRatio` vs. `Tdelay`).
 
@@ -11,6 +11,15 @@ The challenge is the **inverse problem**:
 * **Output:** The underlying 1D thermal conductivity profile ($K(z)$) that produced it.
 
 This reconstruction is notoriously difficult because the mapping from $K(z)$ to the TDTR signal is highly non-linear and ill-posed, meaning multiple complex profiles can produce very similar signals.
+
+
+## 1. Data
+The full, multi-gigabyte dataset used for this project is not stored in this repository. It is publicly available as a Kaggle Dataset.
+
+Kaggle Dataset URL: https://www.kaggle.com/datasets/your-username/your-dataset-name
+
+To run the analysis, please download the CSV files and place them in the data/ directory.
+
 
 ## 2. Our Solution: An Adaptive Expert Ensemble
 
