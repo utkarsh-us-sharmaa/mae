@@ -16,7 +16,7 @@ This reconstruction is notoriously difficult because the mapping from $K(z)$ to 
 ## 1. Data
 The full, multi-gigabyte dataset used for this project is not stored in this repository. It is publicly available as a Kaggle Dataset.
 
-Kaggle Dataset URL: https://www.kaggle.com/datasets/your-username/your-dataset-name
+Kaggle Dataset URL: https://www.kaggle.com/datasets/utkarshsharma2007/projectdata
 
 To run the analysis, please download the CSV files and place them in the data/ directory.
 
